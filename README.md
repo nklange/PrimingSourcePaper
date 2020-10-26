@@ -3,10 +3,10 @@
 
 Inside _Data_ folder, sorted by experiment.
 
-Exp 1: CIDRS14
-Exp 2: CIDRS19
-Exp 3: CIDRS21
-Exp 4: CIDRS22
+* Exp 1: CIDRS14
+* Exp 2: CIDRS19
+* Exp 3: CIDRS21
+* Exp 4: CIDRS22
 
 For each experiment, participants' raw data is in individual folders.
 
@@ -30,7 +30,7 @@ In pre-processing of the raw data, information from these files is combined. Ide
 
 ## Pre-processing of data
 
-Raw data are pre-processed in R script (StandardAnalysis/CIDS_preprocessing.R) to produce pre-processed files CIDRSXX_fulldatascreened.R
+Raw data are pre-processed in R script (StandardAnalysis/CIDS_preprocessing.R) to produce pre-processed files StandardAnalysis/CIDRSXX_fulldatascreened.R
 
 In all columns "-99" indicates a missing value. In CIDRS19 and CIDSR21 this is used to indicate that no recognition task was completed. In CIDRS22, the recognition task columns are omitted.
 
@@ -100,10 +100,10 @@ Columns in _fulldatascreened.R files:
 
 Inside *StandardAnalysis* folder, subsections of analysis commented in the .R files
 
-summaryfunctions.R - some general functions
-CIDS_preprocessing.R - pre-processing of raw data
-CIDRS14_standardanalysis.R - analysis CIDRS14 (Exp 1)
-CIDRS19_standardanalysis.R - analysis CIDRS19 (Exp 2)
-CIDRS21_standardanalysis.R - analysis CIDRS21 (Exp 3)
-CIDRS22_standardanalysis.R - analysis CIDRS22 (Exp 4)
+* summaryfunctions.R - some general functions
+* CIDS_preprocessing.R - pre-processing of raw data
+* CIDRS14_standardanalysis.R - analysis CIDRS14 (Exp 1)
+* CIDRS19_standardanalysis.R - analysis CIDRS19 (Exp 2)
+* CIDRS21_standardanalysis.R - analysis CIDRS21 (Exp 3)
+* CIDRS22_standardanalysis.R - analysis CIDRS22 (Exp 4)
 
