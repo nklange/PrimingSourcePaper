@@ -1,4 +1,4 @@
-# Repository for "Explaining the association between repetition priming and source memory: No evidence for a contribution of recognition or fluency"
+# Repository for "Explaining the association between repetition priming and source memory: No evidence for a contribution of recognition or fluency" (Nicholas Lange, Christopher J. Berry)
 ## Raw data
 
 Inside _Data_ folder, sorted by experiment.
@@ -9,12 +9,22 @@ Exp 3: CIDRS21
 Exp 4: CIDRS22
 
 For each experiment, participants' raw data is in individual folders.
-* in each participant folder:
-     * StudStim.csv (studied words)
-     * XX_ID_CHECK.csv (identification phase: target, response, correct)
-     * dataSTUDY_XX.csv (study phase)
-     * dataTEST_XX.csv (test phase)
-     * + header files for these files
+
+In CIDRS14, CIDRS19, and CIDRS21:
+* StudStim.csv (studied words)
+* XX_ID_CHECK.csv (identification phase: target, response, correct)
+* dataSTUDY_XX.csv (study phase)
+* dataTEST_XX.csv (test phase)
+* and header files for these files ([...]Heads.csv)
+
+In CIDRS22:
+
+- StudStim.csv (studied words)
+- XX_ID_CHECK.csv (identification phase: target, response, correct)
+- dataSTUDY_XX.csv (study phase)
+- dataTESTID_XX.csv (test phase identification task)
+- dataTESTJUD_XX.csv (test phase source memory task)
+- and header files for these files ([...]Heads.csv)
 
 In pre-processing of the raw data, information from these files is combined. Identification of items was manually corrected for typographical errors, i.e., 'duck13' or `ducck' is counted as 'correct' for 'duck'.
 
