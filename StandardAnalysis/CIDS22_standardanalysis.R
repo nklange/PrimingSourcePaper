@@ -8,7 +8,7 @@ rm(list=ls()) # Clears everything from environment
 
 source("summaryfunctions.R")
 init(c("plyr","ggplot2","reshape2","car","afex","grid","emmeans",
-       "nortest","BayesFactor","dplyr","tidyr","magrittr","tibble"))
+       "nortest","BayesFactor","dplyr","tidyr","magrittr","tibble","gridExtra"))
 
 Experiment <- "CIDRS22"
 # Import preprocessed data ----------------------------------------------------

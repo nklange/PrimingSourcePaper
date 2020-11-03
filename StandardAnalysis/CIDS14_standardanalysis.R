@@ -17,7 +17,7 @@ init <- function(need) {
 }
 
 init(c("plyr","ggplot2","reshape2","car","afex","grid","emmeans",
-       "nortest","BayesFactor","dplyr","tidyr","magrittr","tibble"))
+       "nortest","BayesFactor","dplyr","tidyr","magrittr","tibble","gridExtra"))
 source("summaryfunctions.R")
 Experiment <- "CIDRS14"
 # Import preprocessed data ----------------------------------------------------
